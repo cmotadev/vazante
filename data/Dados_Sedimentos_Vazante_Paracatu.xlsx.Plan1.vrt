@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Dados_Sedimentos_Vazante_Paracatu-Plan1">
+        <SrcDataSource relativeToVRT="1">Dados_Sedimentos_Vazante_Paracatu.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Plan1</SrcLayer>
+        <Field name="Estação" src="Estação" type="String"/>
+        <Field name="N.Lab." src="N.Lab." type="String"/>
+        <Field name="Folha" src="Folha" type="String"/>
+        <Field name="Ag(ppm)" src="Ag(ppm)" type="String"/>
+        <Field name="Al(%)" src="Al(%)" type="Real"/>
+        <Field name="As(ppm)" src="As(ppm)" type="String"/>
+        <Field name="Au(ppm)" src="Au(ppm)" type="String"/>
+        <Field name="B(ppm)" src="B(ppm)" type="String"/>
+        <Field name="Ba(ppm)" src="Ba(ppm)" type="String"/>
+        <Field name="Be(ppm)" src="Be(ppm)" type="String"/>
+        <Field name="Bi(ppm)" src="Bi(ppm)" type="String"/>
+        <Field name="Ca(%)" src="Ca(%)" type="String"/>
+        <Field name="Cd(ppm)" src="Cd(ppm)" type="String"/>
+        <Field name="Ce(ppm)" src="Ce(ppm)" type="Real"/>
+        <Field name="Co(ppm)" src="Co(ppm)" type="String"/>
+        <Field name="Cr(ppm)" src="Cr(ppm)" type="String"/>
+        <Field name="Cs(ppm)" src="Cs(ppm)" type="String"/>
+        <Field name="Cu(ppm)" src="Cu(ppm)" type="Real"/>
+        <Field name="Fe(%)" src="Fe(%)" type="String"/>
+        <Field name="Ga(ppm)" src="Ga(ppm)" type="Real"/>
+        <Field name="Ge(ppm)" src="Ge(ppm)" type="String"/>
+        <Field name="Hf(ppm)" src="Hf(ppm)" type="String"/>
+        <Field name="Hg(ppm)" src="Hg(ppm)" type="String"/>
+        <Field name="In(ppm)" src="In(ppm)" type="String"/>
+        <Field name="K(%)" src="K(%)" type="String"/>
+        <Field name="La(ppm)" src="La(ppm)" type="Real"/>
+        <Field name="Li(ppm)" src="Li(ppm)" type="String"/>
+        <Field name="LREE(ppm)" src="LREE(ppm)" type="Real"/>
+        <Field name="Mg(%)" src="Mg(%)" type="String"/>
+        <Field name="Mn(ppm)" src="Mn(ppm)" type="String"/>
+        <Field name="Mo(ppm)" src="Mo(ppm)" type="String"/>
+        <Field name="Na(%)" src="Na(%)" type="String"/>
+        <Field name="Nb(ppm)" src="Nb(ppm)" type="String"/>
+        <Field name="Ni(ppm)" src="Ni(ppm)" type="String"/>
+        <Field name="P(ppm)" src="P(ppm)" type="String"/>
+        <Field name="Pb(ppm)" src="Pb(ppm)" type="Real"/>
+        <Field name="Rb(ppm)" src="Rb(ppm)" type="String"/>
+        <Field name="Re(ppm)" src="Re(ppm)" type="String"/>
+        <Field name="S(%)" src="S(%)" type="String"/>
+        <Field name="Sb(ppm)" src="Sb(ppm)" type="String"/>
+        <Field name="Sc(ppm)" src="Sc(ppm)" type="String"/>
+        <Field name="Se(ppm)" src="Se(ppm)" type="String"/>
+        <Field name="Sn(ppm)" src="Sn(ppm)" type="String"/>
+        <Field name="Sr(ppm)" src="Sr(ppm)" type="String"/>
+        <Field name="Ta(ppm)" src="Ta(ppm)" type="String"/>
+        <Field name="Te(ppm)" src="Te(ppm)" type="String"/>
+        <Field name="Th(ppm)" src="Th(ppm)" type="String"/>
+        <Field name="Ti(%)" src="Ti(%)" type="String"/>
+        <Field name="U(ppm)" src="U(ppm)" type="String"/>
+        <Field name="V(ppm)" src="V(ppm)" type="Integer"/>
+        <Field name="W(ppm)" src="W(ppm)" type="String"/>
+        <Field name="Y(ppm)" src="Y(ppm)" type="Real"/>
+        <Field name="Zn(ppm)" src="Zn(ppm)" type="String"/>
+        <Field name="Zr(ppm)" src="Zr(ppm)" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="LongX" y="LatY"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
